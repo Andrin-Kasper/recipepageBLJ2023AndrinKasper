@@ -1,0 +1,91 @@
+#body
+{
+    background-color: #FFE8D6;
+}
+#Navbar
+{
+    position: sticky;
+    height: 80px;
+    width: device-width;
+    background-color: #6B705C;
+}
+#Navbar_Home
+{
+    position: relative;
+    left: 1500px;
+    top: 20.5px;
+    height: 36px;
+    width: 88px;
+    background-color: #B7B7A4;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.1s ease;
+}
+#Navbar_Home:hover
+{
+    box-shadow: 3px 3px 0px 4px #A5A58D;
+}
+#Navbar_Recipe
+{
+    position: relative;
+    left: 1650px;
+    top: -14px;
+    height: 36px;
+    width: 88px;
+    background-color: #B7B7A4;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.1s ease;
+}
+#Navbar_Recipe:hover
+{
+    box-shadow: 3px 3px 0px 4px #A5A58D;
+}
+#Navbar_Imprint
+{
+    position: relative;
+    left: 1800px;
+    top: -50px;
+    height: 36px;
+    width: 88px;
+    background-color: #B7B7A4;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.1s ease;
+}
+#Navbar_Imprint:hover
+{
+    box-shadow: 3px 3px 0px 4px #A5A58D;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#content1
+{
+    height: 500px;
+    width: 500px;
+    background-color: #DDBEA9;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+#content2
+{
+    height: 500px;
+    width: 500px;
+    background-color: #DDBEA9;
+    position: relative;
+    left: 700px;
+    bottom: 400px;
+}
+#content3
+{
+    height: 500px;
+    width: 500px;
+    background-color: #DDBEA9;
+    position: relative;
+    left: 1300px;
+    bottom: 900px;
+}
