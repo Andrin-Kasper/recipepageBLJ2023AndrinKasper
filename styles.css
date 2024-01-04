@@ -37,12 +37,13 @@ a:hover {
     margin-top: 20px;
 }
 
-#content1, .Anleitung_Bild {
+#content1
+{
     height: 500px;
     width: 100%; 
     background-color: #DDBEA9;
-    margin-bottom: 20px;
-    margin-left: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 #content1_gif
 {
@@ -56,52 +57,87 @@ a:hover {
     height: 500px;
     width: 100%; 
     background-color: #DDBEA9;
-    transition: 0.5s ease;
     margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: -80px;
     margin-top: 600px;
+    transform: scaleX(-1);
+
 }
 #content3
 {
     height: 500px;
     width: 100%; 
     background-color: #DDBEA9;
-    transition: 0.5s ease;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: -340px;
+}
+#col-md-4-Contactme
+{
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+}
+.col-md-4
+{
+    width: 440px; 
+    height: 150%;
 }
 .col-md-4 p
 {
-    margin-top: 180px;
-    margin-left: 100px;
+    width: 500px;
+    height: 150%;
+    margin-top: 250px;
+    margin-left: 200px;
     font-size: 150%;
 }
+#Clickhere_col-md-4
+{
+    color: #ff0000b3;
+}
+#col-md-4-text-top-secret
+{
+    margin-top: -440px;
+    margin-left: 100px;
+}
+#col-md-4-text-Contactme
+{
+    margin-top: 200px;
+    margin-left: -180px;
+}
+#Anleitung_Bild1, #Anleitung_Bild2, #Anleitung_Bild3, #Anleitung_Bild4, #Anleitung_Bild5, #Anleitung_Bild6, #Anleitung_Bild7, #Anleitung_Bild8
+{
+    height: 500px;
+    width: 100%; 
+    background-color: #DDBEA9;
+    margin-top: -200px;
 
-
-#Anleitung_Download {
+}
+#Anleitung_Download 
+{
     height: 50px;
     width: 150px;
     background-color: #F15A5A;
     text-align: center;
     font-size: 30px;
-    margin-top: 230px;
-    margin-left: 100px;
+    margin-left: 110px;
+    margin-top: 30px;
 }
-.col-md-6 div {
-    padding: 20px; /* Beispiel für Innenabstand */
+.col-md-6 div 
+{
+    padding: 20px;
     margin-top: 300px;
 }
-
-.col-md-6 p {
-    margin: 0; /* Nullen Sie die standardmäßigen Absatzmargen */
+.col-md-6 p 
+{
+    margin: 0; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150%;
     margin-right: 200px;
     margin-left: -200px;
 }
-
-#Imprint_Foto img {
-    width: 60%; 
+#Imprint_Foto img 
+{
+    width: 60%;
     height: auto;
     margin-top: -200px;
 }
